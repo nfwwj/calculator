@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: arial, sans-serif;
+    background-color: rgb(238, 238, 238);
+
+}
+#container{
+   
+    padding: 1rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: rgb(36, 35, 35);
+    border-radius: 2rem;
+   
+
+
+}
+
+#grid{
+    
+    display: grid;
+    padding-top: 1rem;
+    
+    grid-template-columns: repeat(4, 3.5rem);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0.75rem;
+    
+}
+button{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer
+
+}
+button.hover{
+
+    background-color: rgb(118, 118, 118)
+
+}
+
+button.op{
+    background-color: rgb(255, 183, 0);
+}
+button.op:hover{
+    background-color: rgb(255, 197, 49);
+}
+
+input{
+    
+    border-radius: 1rem;
+    border: none;
+    height: 3rem;
+    width: 15rem;
+    text-align: left;
+    color: black;
+    font-size: 1.5rem;
+   
+}
+
+button:active{
+    background-color: rgb(138, 138, 138)
+}
+
+button.op:active{
+    background-color: rgb(255, 225, 0)
+}
